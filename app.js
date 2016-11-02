@@ -3,7 +3,7 @@ jQuery(function($) {
   window.explorerDiv = $('.csv-view');
 
   var dataset = new recline.Model.Dataset({
-    url: 'data/LocationBasedLicenseData.csv',
+    url: 'data/nigp.csv',
     backend: 'csv',
     delimiter: ','
     // quotechar: '"',
