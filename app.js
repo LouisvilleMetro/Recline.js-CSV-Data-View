@@ -38,7 +38,7 @@ var createExplorer = function(dataset, state) {
         state: {
           gridOptions: {
             editable: false,
-            width: 22,
+            width: 50,
             enabledAddRow: false,
             enableCellNavigation: true
           }
